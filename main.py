@@ -10,9 +10,9 @@ for image in images:
     im = cv2.imread(image)
     # print(im.shape)
 
-    # left = im[:, :int(im.shape[1]/3)]
-    # middle = im[:, int(im.shape[1]/3):int(im.shape[1]/3*2)]
-    # right = im[:, int(im.shape[1]/3*2):]
+    left = im[649:1296, :int(im.shape[1]/3)]
+    middle = im[649:1296, int(im.shape[1]/3):int(im.shape[1]/3*2)]
+    right = im[649:1296, int(im.shape[1]/3*2):]
 
     # left = im[:, :int(im.shape[1]/3)]
     # middle = im[:, int(im.shape[1]/3):int(im.shape[1]/3*2)]
