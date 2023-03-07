@@ -14,7 +14,7 @@ Preparing the Dataset:
   2. It outputs a yes if a symbol is detected and a no if not detected.
    
 2nd round of training:
-  1. We froze the previously trained layer to ensure it remembers what it learned.
+  1. We froze the previously trained layer to ensure it remembers what it learned. Which is how to detect symbols or non-symbols images
   2. Next, we added another layer for the model to train. 
   3. If a symbol is detected, we taught the model to differentiate the symbol between 15 possible symbols.
   4. The model tells us which of the symbol that the image is likely to be.
