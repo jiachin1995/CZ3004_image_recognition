@@ -10,12 +10,14 @@ Preparing the Dataset:
   5. Finally, we trained the model on this dataset.
   
 1st round of training:
-  1. First, we taught the model to different between symbols & non-symbols images. 
+  1. For the first layer of the model, we taught the model to different between symbols & non-symbols images. 
   2. It outputs a yes if a symbol is detected and a no if not detected.
    
 2nd round of training:
-  1. Next, if a symbol is detected, we taught the model to differentiate the symbol between 15 possible symbols.
-  2. The model tells us which of the symbol that the image is likely to be.
+  1. We froze the previously trained layer to ensure it remembers what it learned.
+  2. Next, we added another layer for the model to train. 
+  3. If a symbol is detected, we taught the model to differentiate the symbol between 15 possible symbols.
+  4. The model tells us which of the symbol that the image is likely to be.
   
 Implementation:
   1. On startup, the robot loads the model into memory. This is to remove the need to load from hard drive when the robot is exploring the maze.
