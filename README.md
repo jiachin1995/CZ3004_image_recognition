@@ -25,7 +25,7 @@ Implementation:
   3. The image is sent to our trained model (that is already loaded in memory). The model identifies the symbols if it is present.
   4. Finally, the robot designates the block as having a symbol and this is reflected in the android screen.
   
-Results:
-  The robot can detect images 100% accurately in less than a second. We are confident of getting 100% for image recognition. However, the android app declared that the robot had finished exploring before getting the last symbol as the last symbol was beside the finish line. We got 2nd place for image recognition.
+Final Results:
+  The robot can detect images 100% accurately in less than a second. We were confident of getting 100% for image recognition. However, the android app declared that the robot had finished exploring before getting the last symbol as the last symbol was beside the finish line. We got 2nd place for image recognition.
   
-Final model: JiaChin_Martyn_MDP22_19S1_.h5
+Final Trained Model: JiaChin_Martyn_MDP22_19S1_.h5
