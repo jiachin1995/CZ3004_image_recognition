@@ -27,3 +27,5 @@ Implementation:
   
 Results:
   The robot can detect images 100% accurately in less than a second. We are confident of getting 100% for image recognition. However, the android app declared that the robot had finished exploring before getting the last symbol as the last symbol was beside the finish line. We got 2nd place for image recognition.
+  
+Final model: JiaChin_Martyn_MDP22_19S1_.h5
